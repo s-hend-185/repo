@@ -28,3 +28,4 @@ else:
     print ('all done!')
 
 # Source: https://www.w3schools.com/python/python_conditions.asp
+#I added in logical operators for d20 rolls. I cannot recall if we reviewed logical. I know we did comparison.
