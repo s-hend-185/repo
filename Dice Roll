@@ -1,0 +1,30 @@
+#First import random
+
+import random 
+
+#Second allow input of integers
+
+diceRolls = int(input ('How many times do you want to roll?'))
+print (diceRolls)
+
+diceSides = int(input ('How many sides is your dice?'))
+print (diceSides)
+
+#Third for statements
+
+for rolls in range (diceRolls):
+    userRolls = random.randrange(diceSides)+1
+    print ('Your roll is:', userRolls)
+    
+#Fourth if and elif statements
+    
+    if diceRolls==20 and userRolls==20:
+        print ('Critical hit')
+
+    elif diceRolls==20 and userRolls==1:
+        print ('Critical fail')
+
+else:
+    print ('all done!')
+
+# Source: https://www.w3schools.com/python/python_conditions.asp
